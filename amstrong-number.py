@@ -3,6 +3,7 @@ while True:
 
     numLenght = len(number)
     result = 0
+
     for numberChar in number:
         result += int(numberChar)**numLenght
 
